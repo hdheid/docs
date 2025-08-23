@@ -8,14 +8,13 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export default defineNavbarConfig([
   { text: '首页', link: '/' },
-  { text: '博客', link: '/blog/' },
-  { text: '标签', link: '/blog/tags/' },
-  { text: '归档', link: '/blog/archives/' },
   {
-    text: '笔记',
+    text: '编程语言',
     items: [
-      { text: '示例', link: '/notes/demo/README.md' },
       { text: 'Go', link: '/notes/go/README.md' },
     ]
   },
+  { text: '标签', link: '/blog/tags/' },
+  { text: '归档', link: '/blog/archives/' },
+  { text: '博客', link: '/blog/' },
 ])
