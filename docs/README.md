@@ -7,16 +7,16 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      name: HH知识库
+      tagline: 知识库
+      text: 一个简约的，记录学习的知识库
       actions:
         -
           theme: brand
-          text: 博客
-          link: /blog/
+          text: 开始
+          link: /demo/
         -
           theme: alt
           text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          link: https://github.com/hdheid/docs
 ---
