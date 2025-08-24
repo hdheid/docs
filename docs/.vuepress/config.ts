@@ -29,7 +29,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    hostname: 'https://docs.hhblog.top/',
+    hostname: 'https://docs.hhblog.top',
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
@@ -44,7 +44,7 @@ export default defineUserConfig({
 
     /**
      * 博客
-     * @see https://theme-plume.vuejs.press/config/basic/#blog
+     * @see https://theme-plume.vuejs.press/config/theme/#blog
      */
     // blog: false, // 禁用博客
     // blog: {
