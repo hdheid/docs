@@ -32,7 +32,7 @@ export default defineUserConfig({
     hostname: 'https://docs.hhblog.top',
 
     /* 文档仓库配置，用于 editLink */
-    docsRepo: 'https://github.com/hhblogtop/docs',
+    docsRepo: 'https://github.com/hdheid/docs',
     docsDir: 'docs',
     docsBranch: 'main',
 
@@ -43,7 +43,7 @@ export default defineUserConfig({
 
     changelog: {
       maxCount: 50,
-      repoUrl: 'https://github.com/hhblogtop/docs',
+      repoUrl: 'https://github.com/hdheid/docs',
       commitUrlPattern: ':repo/commit/:hash',
       issueUrlPattern: ':repo/issues/:issue',
       tagUrlPattern: ':repo/releases/tag/:tag'
