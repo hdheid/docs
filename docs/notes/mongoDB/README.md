@@ -4,7 +4,5 @@ createTime: 2025/8/24 15:24:53
 permalink: /mongoDB/
 ---
 
-mongodb
 
-- [hahaha](./ahahha.md)
-这里是Go语言部分
+简单来说，mongoDB就是一个数据库。
