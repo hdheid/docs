@@ -12,6 +12,7 @@ export default defineNavbarConfig([
     text: '编程语言',
     items: [
       { text: 'Go', link: '/notes/go/README.md' },
+      { text: 'mongoDB', link: '/notes/mongoDB/README.md' },
     ]
   },
   { text: '标签', link: '/blog/tags/' },

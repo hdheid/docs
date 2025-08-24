@@ -32,15 +32,22 @@ export default defineUserConfig({
     hostname: 'https://docs.hhblog.top',
 
     /* 文档仓库配置，用于 editLink */
-    // docsRepo: '',
-    // docsDir: 'docs',
-    // docsBranch: '',
+    docsRepo: 'https://github.com/hhblogtop/docs',
+    docsDir: 'docs',
+    docsBranch: 'main',
 
     /* 页内信息 */
-    // editLink: true,
+    editLink: true,
     // lastUpdated: true,
     // contributors: true,
-    // changelog: false,
+
+    changelog: {
+      maxCount: 50,
+      repoUrl: 'https://github.com/hhblogtop/docs',
+      commitUrlPattern: ':repo/commit/:hash',
+      issueUrlPattern: ':repo/issues/:issue',
+      tagUrlPattern: ':repo/releases/tag/:tag'
+    },
 
     /**
      * 博客
