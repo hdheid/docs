@@ -14,7 +14,7 @@ config:
         -
           theme: brand
           text: 开始
-          link: /demo/
+          link: /go/
         -
           theme: alt
           text: Github →
