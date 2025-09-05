@@ -1,0 +1,6 @@
+{
+   "buildCommand": "pnpm run docs:build",
+   "installCommand": "pnpm install",
+   "outputDirectory": "docs/.vuepress/dist",
+   "nodeVersion": "22.11.0"
+}
