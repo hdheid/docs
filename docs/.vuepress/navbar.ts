@@ -15,6 +15,18 @@ export default defineNavbarConfig([
       { text: 'mongoDB', link: '/notes/mongoDB/README.md' },
     ]
   },
+  {
+    text: '中间件',
+    items: [
+      { text: 'docker', link: '/notes/docker/README.md' },
+    ]
+  },
+  {
+    text: '开源项目',
+    items: [
+      { text: 'go-utils', link: '/notes/utils/README.md' },
+    ]
+  },
   { text: '标签', link: '/blog/tags/' },
   { text: '归档', link: '/blog/archives/' },
   { text: '博客', link: '/blog/' },
