@@ -33,7 +33,7 @@ export default defineNavbarConfig([
   {
     text: '开源项目',
     items: [
-      { text: 'go-utils', link: '/notes/utils/README.md' },
+      { text: 'go-utils', icon:'vscode-icons:file-type-go', link: '/notes/utils/README.md' },
     ],
     icon: 'mingcute:github-fill'
   },
