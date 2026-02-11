@@ -23,8 +23,10 @@
     "vp-update": "pnpm dlx vp-update"
   },
   "devDependencies": {
+    "@types/three": "^0.182.0",
     "@vuepress/bundler-vite": "2.0.0-rc.26",
     "http-server": "^14.1.1",
+    "three": "^0.182.0",
     "typescript": "^5.9.3",
     "vue": "^3.5.28",
     "vuepress": "2.0.0-rc.26",

@@ -11,30 +11,30 @@ export default defineNavbarConfig([
   {
     text: '编程语言',
     items: [
-      { text: 'Go', icon:'vscode-icons:file-type-go', link: '/notes/go/README.md' },
+      { text: 'Go', icon:'vscode-icons:file-type-go', link: '/go/' },
     ],
     icon: 'streamline-color:file-code-1'
   },
   {
     text: '中间件',
     items: [
-      { text: 'mongoDB', icon:'devicon:mongodb', link: '/notes/mongoDB/README.md' },
-      { text: 'docker', icon: 'devicon:docker' , link: '/notes/docker/README.md' },
+      { text: 'mongoDB', icon:'devicon:mongodb', link: '/mongoDB/' },
+      { text: 'docker', icon: 'devicon:docker' , link: '/docker/' },
     ],
     icon: 'streamline-plump-color:database-flat'
   },
   {
     text: '开发常用',
     items: [
-      { text: 'git', icon:'material-icon-theme:git', link: '/notes/git/README.md' },
+      { text: 'git', icon:'material-icon-theme:git', link: '/git/' },
     ],
     icon: 'streamline-sharp-color:tool-box-flat'
   },
   {
     text: '开源项目',
     items: [
-      { text: 'go-utils', icon:'vscode-icons:file-type-go', link: '/notes/utils/README.md' },
-      { text: 'gpt-load', icon:'vscode-icons:file-type-go', link: '/notes/gpt-load/README.md' }
+      { text: 'go-utils', icon:'vscode-icons:file-type-go', link: '/utils/' },
+      { text: 'gpt-load', icon:'vscode-icons:file-type-go', link: '/gpt-load/' }
     ],
     icon: 'mingcute:github-fill'
   },

@@ -1,15 +1,25 @@
 ---
-title: go
+title: Go 语言
 createTime: 2025/08/22 18:26:36
 permalink: /go/
+icon: vscode-icons:file-type-go
 ---
 
-这里是Go语言部分。
+# Go 语言
 
+这里记录 Go 语言的学习笔记，包括语言规范、性能优化、编程模式和最佳实践。
 
-## 推荐
+## 📚 内容概览
 
-- [Go语言中文文档](https://topgoer.com/)
+- **语言规范** - Go 语言的编程规范和最佳实践
+  - 指导原则
+  - 性能优化
+  - 代码规范
+  - 编程模式
+
+## 🔗 推荐资源
+
+- [Go 语言中文文档](https://topgoer.com/)
 
 
 ### 书籍推荐

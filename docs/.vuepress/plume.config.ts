@@ -12,7 +12,6 @@
 
 import { defineThemeConfig } from 'vuepress-theme-plume'
 import navbar from './navbar'
-import notes from './notes'
 
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
@@ -58,7 +57,19 @@ export default defineThemeConfig({
   },
 
   navbar,
-  notes,
+
+  /**
+   * 集合配置 - 使用新的 collections 替代 notes
+   * @see https://theme-plume.vuejs.press/guide/collection/
+   */
+  collections: [
+    { type: 'doc', dir: 'go', title: 'Go 语言', sidebar: 'auto' },
+    { type: 'doc', dir: 'docker', title: 'Docker', sidebar: 'auto' },
+    { type: 'doc', dir: 'git', title: 'Git', sidebar: 'auto' },
+    { type: 'doc', dir: 'mongoDB', title: 'MongoDB', sidebar: 'auto' },
+    { type: 'doc', dir: 'utils', title: '实用工具', sidebar: 'auto' },
+    { type: 'doc', dir: 'gpt-load', title: 'GPT Load', sidebar: 'auto' },
+  ],
 
   /**
    * 公告板
