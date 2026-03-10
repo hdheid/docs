@@ -38,6 +38,13 @@ export default defineNavbarConfig([
     ],
     icon: 'mingcute:github-fill'
   },
+  {
+    text: '福利',
+    items: [
+      { text: '福利', icon:'line-md:discord-twotone', link: '/welfare/' },
+    ],
+    icon: 'line-md:discord-twotone'
+  },
   
   { text: '标签', link: '/blog/tags/' },
   { text: '归档', link: '/blog/archives/' },

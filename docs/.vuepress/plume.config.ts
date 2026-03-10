@@ -69,6 +69,7 @@ export default defineThemeConfig({
     { type: 'doc', dir: 'mongoDB', title: 'MongoDB', sidebar: 'auto' },
     { type: 'doc', dir: 'utils', title: '实用工具', sidebar: 'auto' },
     { type: 'doc', dir: 'gpt-load', title: 'GPT Load', sidebar: 'auto' },
+    { type: 'doc', dir: 'welfare', title: '福利', sidebar: 'auto' },
   ],
 
   /**
