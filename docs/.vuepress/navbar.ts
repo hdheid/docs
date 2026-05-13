@@ -39,6 +39,13 @@ export default defineNavbarConfig([
     icon: 'mingcute:github-fill'
   },
   {
+    text: '国家政策',
+    items: [
+      { text: '十五五政策分析', icon:'twemoji:flag-china', link: '/policy/' },
+    ],
+    icon: 'twemoji:flag-china'
+  },
+  {
     text: '福利',
     items: [
       { text: '福利', icon:'line-md:discord-twotone', link: '/welfare/' },
